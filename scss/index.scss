@@ -184,6 +184,10 @@ p,
   }
 }
 
+#speaker {
+  background-color: #fff;
+}
+
 .speaker-list {
   display: flex;
   align-items: center;
@@ -255,6 +259,13 @@ p,
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.webinar-logo {
+  width: 160px;
+}
+.logo {
+  width: 120px;
 }
 
 .swiper-button-next,
@@ -367,10 +378,6 @@ p,
 }
 
 @media only screen and (max-width: 576px) {
-  .webinar-logo {
-    width: 120px;
-  }
-
   .speaker-list {
     .spekaer-img {
       width: 100px;

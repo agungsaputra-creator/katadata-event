@@ -201,6 +201,10 @@ p,
   height: 100%;
 }
 
+#speaker {
+  background-color: #fff;
+}
+
 .speaker-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,6 +289,14 @@ p,
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.webinar-logo {
+  width: 160px;
+}
+
+.logo {
+  width: 120px;
 }
 
 .swiper-button-next,
@@ -386,9 +398,6 @@ p,
 }
 
 @media only screen and (max-width: 576px) {
-  .webinar-logo {
-    width: 120px;
-  }
   .speaker-list .spekaer-img {
     width: 100px;
     height: 100px;
