@@ -112,6 +112,27 @@ p,
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
+  position: relative;
+}
+
+.countdown {
+  background: rgba(14, 26, 41, 0.7);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 20px 20px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  width: 40%;
+  height: 20%;
 }
 
 .text-white {
