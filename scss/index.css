@@ -266,8 +266,12 @@ p,
 .webinar-earth {
   position: absolute;
   top: -4%;
-  right: -42%;
+  right: 0;
   height: 126%;
+}
+
+.btn-regis {
+  background-color: #8bdc73;
 }
 
 .swiper-slide {
@@ -296,7 +300,7 @@ p,
 }
 
 .logo-event {
-  width: 120px;
+  width: 170px;
 }
 
 .swiper-button-next,
@@ -379,7 +383,7 @@ p,
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-top: 20px;
+    padding-top: 60px;
   }
   .countdown {
     right: 0;
@@ -432,8 +436,8 @@ p,
   .webinar-earth {
     position: absolute;
     top: -4%;
-    right: -71%;
-    height: 116%;
+    right: -24%;
+    height: 126%;
   }
   .webinar .video-webinar {
     height: auto;
