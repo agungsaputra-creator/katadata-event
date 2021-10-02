@@ -394,6 +394,9 @@ p,
   .webinar .video-webinar {
     height: 400px;
   }
+  .logo-present {
+    width: 170px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
