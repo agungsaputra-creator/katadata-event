@@ -135,6 +135,22 @@ p,
   color: #fff;
 }
 
+.btn-more {
+  width: 10%;
+  padding: 10px 0px;
+  border-radius: 6px;
+  background-color: #8bdc73;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: #7aec57;
+  }
+}
+
+.content-speaker {
+  display: none;
+}
+
 .img-earth {
   position: absolute;
   top: 0;

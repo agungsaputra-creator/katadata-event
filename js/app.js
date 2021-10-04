@@ -31,3 +31,14 @@ function updateTimer() {
     "<span>seconds</span></div>";
 }
 setInterval("updateTimer()", 1000);
+
+$(document).ready(function () {
+  $(".content-speaker").slice(0, 8).show();
+  $("#loadMore").on("click", function (e) {
+    e.preventDefault();
+    $(".content-speaker:hidden").slice(0, 4).slideDown();
+    if ($(".content-speaker:hidden").length == 0) {
+      $("#loadMore").text("No Content").addClass("noContent");
+    }
+  });
+});
