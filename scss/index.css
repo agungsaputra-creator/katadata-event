@@ -337,6 +337,14 @@ p,
      object-fit: cover;
 }
 
+.logo {
+  width: 140px;
+}
+
+.logo.event {
+  width: 60px;
+}
+
 .webinar-logo {
   width: 160px;
 }
@@ -470,7 +478,10 @@ p,
     width: 100%;
   }
   .logo {
-    width: 240px;
+    width: 130px;
+  }
+  .logo.event {
+    width: 60px;
   }
   .webinar .video-webinar {
     height: 400px;
@@ -558,7 +569,10 @@ p,
     padding: 40px 10px;
   }
   .logo {
-    width: 180px;
+    width: 120px;
+  }
+  .logo.event {
+    width: 60px;
   }
   .title {
     font-size: 30px !important;
