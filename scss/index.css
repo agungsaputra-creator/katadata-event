@@ -123,6 +123,10 @@ p,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -131,8 +135,7 @@ p,
   position: absolute;
   bottom: 0;
   right: 40px;
-  padding: 0 5%;
-  height: 20%;
+  padding: 1% 5%;
 }
 
 .text-white {
@@ -140,8 +143,7 @@ p,
 }
 
 .btn-more {
-  width: 10%;
-  padding: 10px 0px;
+  padding: 10px;
   border-radius: 6px;
   background-color: #8bdc73;
   color: #fff;
@@ -293,8 +295,8 @@ p,
 }
 
 .profile.small {
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
 }
 
 .profile.small img {
@@ -421,6 +423,45 @@ p,
   text-transform: uppercase;
 }
 
+.icon-fb,
+.icon-twitter,
+.icon-linkedin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3f599a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.icon-fb i,
+.icon-twitter i,
+.icon-linkedin i {
+  color: #fff;
+}
+
+.icon-twitter {
+  background-color: #76b3e3;
+}
+
+.icon-linkedin {
+  background-color: #2f76b2;
+}
+
+.bottom-earth {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
   .title {
     font-size: 40px !important;
@@ -454,8 +495,14 @@ p,
   .swiper-button-prev img {
     width: 100%;
   }
+  .title {
+    font-size: 35px !important;
+  }
   .speaker-list {
     width: 90%;
+  }
+  .logo-event {
+    width: 140px;
   }
   .webinar {
     background-image: url(../assets/media/mobile-webinar.jpg);
@@ -472,7 +519,7 @@ p,
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-top: 30px;
+    padding-top: 25px;
   }
   .countdown {
     right: 0;
@@ -497,7 +544,7 @@ p,
   }
   .btn-yt,
   .btn-fb {
-    width: 80px;
+    width: 120px;
   }
   #agenda {
     background-image: url(../assets/media/bg-agenda.jpg);
@@ -509,9 +556,6 @@ p,
   #agenda .agenda-list {
     border-bottom: 1px solid #fff;
     padding: 40px 10px;
-  }
-  .nav-pills .nav-item {
-    width: 32%;
   }
   .logo {
     width: 180px;
@@ -579,6 +623,9 @@ p,
   }
   .webinar .video-webinar {
     height: auto;
+  }
+  .nav-pills .nav-item {
+    width: 32%;
   }
 }
 /*# sourceMappingURL=index.css.map */
